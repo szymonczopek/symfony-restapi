@@ -17,6 +17,7 @@ services:
         networks:
             - symfony_app
     php:
+        container_name: php
         build:
             context: ./php
             args:
