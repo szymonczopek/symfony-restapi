@@ -16,3 +16,5 @@ To run this project:
     php bin/console get-posts
 
     php bin/console doctrine:migrations:migrate
+
+Once the server is running, the application will be accessible at http://localhost:80
