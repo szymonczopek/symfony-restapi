@@ -13,8 +13,8 @@ To run this project:
 
     composer install
 
-    php bin/console get-posts
-
     php bin/console doctrine:migrations:migrate
+
+    php bin/console get-posts
 
 Once the server is running, the application will be accessible at http://localhost:80
